@@ -62,8 +62,8 @@ Or from RStudio: open `app.R` → click **Run App**.
 
 # Intelliflex:
 
-Two files are required: the raw output from the Intelliflex platform + the 96-well Helper file ![helper](Images/helper_file_view.png). In addition, select your controls.
+** Two files are required: the raw output from the Intelliflex platform + the 96-well Helper file ![helper](Images/helper_file_view.png). In addition, select your controls.
 
 # Bioplex:
 
-Only the raw output file, which is fully annotated, is required
+** Only the raw output file, which is fully annotated, is required
