@@ -46,17 +46,24 @@ Or from RStudio: open `app.R` → click **Run App**.
 | Tab | Description |
 |-----|-------------|
 | 🏠 Overview | Summary value boxes and workflow guide |
-| 🧪 Plate Data Upload | Upload one or more raw XLS plate files |
-| ⚙️ Helper Setup | View/edit the `experiments` & `Setup` sheets live |
-| 📋 Plate Review | Full renamed RLU matrix per plate |
-| 📝 processed | |
+| 🧪 Plate Data Upload | Upload raw xlsx plate files |
+| ⚙️ Helper Setup | View/edit the `Scientist ID`, `Run Date` & `Instrument Serial Number` sheets live and download either the pre-filled or empty helper file |
+| 📋 Plate Review | Full renamed MFIs matrix per plate |
+| 📝 processed | Plate data with every calculation |
 | Analysis >>>
-| > 🔬 Point-based| Cell & virus control averages with CV% highlighting |
-| > 📊 Titration | Interactive neutralisation curves per plate/virus/sample |
-| > 🔢 Quantification | IC50 & IC80 titer table + bar chart |
-| 💾 Export | Download XLSX workbook matching the original pipeline output |
+| > 🔬 Point-based| QC step to review data after the `📝processed` calculations |
+| > 📊 Titration | Interactive titration curves per analyte/sample readout |
+| > 🔢 Quantification | Standard curve + Concentration determinant step |
+| 💾 Export | Download xlsx workbook matching the original pipeline output |
 
 ---
 
 ## Input Files
 
+# Intelliflex:
+
+Two files are required: the raw output from the Intelliflex platform ![helper](Images/raw_INT_file_view.png) + the 96-well Helper file ![helper](Images/helper_file_view.png). In addition, select your controls.
+
+# Bioplex:
+
+Only the raw output file, which is fully annotated is required ![helper](Images/raw_BIO_file_view.png)
