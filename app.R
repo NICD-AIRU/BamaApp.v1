@@ -917,8 +917,9 @@ ui <- dashboardPage(
               style = "font-size:13.5px; line-height:2;",
               tags$li(HTML("Upload your <strong>Raw (.xlsx) File</strong> in the Plate Data Upload tab and Review Raw Plate Data")),
               tags$li(HTML("Review the <strong>Helper Setup</strong> tab to see your current pre-constructed Helper File and edit it completely")),
-              tags$li(HTML("Upload the <strong> Complete Helper (.xlsx) Files</strong> in the Upload Complete Helper File (.xlsx). [<strong>Option 2</strong>]: is to download an Empty Helper File, Fill it in and Upload it on the Upload Complete Helper File sidebar")),
+              tags$li(HTML("Upload the <strong> Complete Helper (.xlsx) Files</strong> in the Upload Complete Helper File (.xlsx). [<strong>Option 2</strong>]: is to download an Empty Helper File, fill it in and upload it to the Upload Complete Helper File sidebar.")),
               tags$li(HTML("Click <strong>Run Analysis</strong>")),
+              tags$li(HTML("For Intelliflex, before running the `Run Analysis` step, you need to upload a <strong>96-well file format</strong> and <strong>select the controls</strong> from the `Plate Data Upload` page/tab")),
               tags$li(HTML("Explore Analysis tabs: <strong>Point-based</strong> , <strong>Titration</strong> , <strong>Quantification</strong>")),
               tags$li(HTML("Download XLSX from the <strong>Export</strong> tab"))
             )
